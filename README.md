@@ -6,6 +6,9 @@ A module for the [BBEdit](https://www.barebones.com/products/bbedit/) text edito
 ## Installation
 
 Copy the `GDScript.plist` file into your `~/Library/Application Support/BBEdit/Language Modules/` folder.
+Then restart BBEdit.
+
+Follow the same steps when upgrading this language module, replacing the existing file.
 
 ## Legal
 

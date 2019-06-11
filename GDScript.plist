@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+	BBEdit codeless language module for GDScript (Godot) files.
+	Grant Neufeld <http://grantneufeld.ca/>
+	Version 0.1
+	2019-06-11
+
+	Install this file:
+		~/Library/Application Support/BBEdit/Language Modules/
+	(Requires BBEdit to be relaunched.)
+-->
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>GDScript</string>
+	<key>BBLMLanguageCode</key>
+  <string>GDS </string>
+  <key>BBLMSuffixMap</key>
+  <array>
+    <dict>
+      <key>BBLMLanguageSuffix</key>
+      <string>.gd</string>
+    </dict>
+  </array>
+  <key>BBLMPreferredFilenameExtension</key>
+  <string>gd</string>
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<false/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>and</string>
+		<string>as</string>
+		<string>assert</string>
+		<string>break</string>
+		<string>breakpoint</string>
+		<string>class</string>
+		<string>class_name</string>
+		<string>const</string>
+		<string>continue</string>
+		<string>Cursor</string>
+		<string>elif</string>
+		<string>else</string>
+		<string>enum</string>
+		<string>EOF</string>
+		<string>Error</string>
+		<string>export</string>
+		<string>extends</string>
+		<string>false</string>
+		<string>for</string>
+		<string>func</string>
+		<string>if</string>
+		<string>in</string>
+		<string>INF</string>
+		<string>is</string>
+		<string>master</string>
+		<string>mastersync</string>
+		<string>match</string>
+		<string>NAN</string>
+		<string>not</string>
+		<string>onready</string>
+		<string>or</string>
+		<string>pass</string>
+		<string>PI</string>
+		<string>preload</string>
+		<string>puppet</string>
+		<string>puppetsync</string>
+		<string>remote</string>
+		<string>remotesync</string>
+		<string>return</string>		
+		<string>rpc</string>
+		<string>self</string>
+		<string>setget</string>
+		<string>signal</string>
+		<string>slave</string>
+		<string>static</string>
+		<string>sync</string>
+		<string>TAU</string>
+		<string>tool</string>
+		<string>true</string>
+		<string>var</string>
+		<string>void</string>
+		<string>while</string>
+		<string>yield</string>
+		<!-- Operators -->
+    <string>==</string>
+    <string>!=</string>
+    <string>&lt;</string>
+    <string>&lt;=</string>
+    <string>&gt;</string>
+    <string>&gt;=</string>
+    <string>and</string>
+    <string>or</string>
+    <string>not</string>
+    <string>+</string>
+    <string>-</string>
+    <string>*</string>
+    <string>/</string>
+    <string>%</string>
+    <string>&lt;&lt;</string>
+    <string>&gt;&gt;</string>
+    <string>=</string>
+    <string>+=</string>
+    <string>-=</string>
+    <string>*=</string>
+    <string>/=</string>
+    <string>%=</string>
+    <string>&lt;&lt;=</string>
+    <string>&gt;&gt;=</string>
+    <string>&amp;=</string>
+    <string>|=</string>
+    <string>^=</string>
+    <string>&amp;</string>
+    <string>|</string>
+    <string>^</string>
+    <string>~</string>
+	</array>
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<!-- Built-in Types / Classes -->
+    <string>bool</string>
+    <string>int</string>
+    <string>float</string>
+    <string>String</string>
+    <string>Vector2</string>
+    <string>Rect2</string>
+    <string>Transform2D</string>
+    <string>Vector3</string>
+    <string>AABB</string>
+    <string>Plane</string>
+    <string>Quat</string>
+    <string>Basis</string>
+    <string>Transform</string>
+    <string>Color</string>
+    <string>RID</string>
+    <string>Object</string>
+    <string>NodePath</string>
+    <string>Dictionary</string>
+    <string>Array</string>
+    <string>PoolByteArray</string>
+    <string>PoolIntArray</string>
+    <string>PoolRealArray</string>
+    <string>PoolStringArray</string>
+    <string>PoolVector2Array</string>
+    <string>PoolVector3Array</string>
+    <string>PoolColorArray</string>
+    <!-- common functions -->
+		<string>_init</string>
+		<string>print</string>
+		<string>new</string>
+	</array>
+	<key>BBLMCommentLineDefault</key>
+	<string># </string>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_</string>
+		<key>Open Line Comments</key>
+		<string>#</string>
+    <!-- Strings -->
+		<key>Open Strings 1</key>
+		<string>'</string>
+		<key>Close Strings 1</key>
+		<string>'</string>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+    <!-- Functions -->
+		<key>Prefix for Functions</key>
+		<string>func</string>
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+  </dict>
+</dict>
+</plist>

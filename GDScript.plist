@@ -167,9 +167,9 @@
 		<string>#</string>
     <!-- Strings -->
 		<key>Open Strings 1</key>
-		<string>'</string>
+		<string>"</string>
 		<key>Close Strings 1</key>
-		<string>'</string>
+		<string>"</string>
 		<key>Escape Char in Strings 1</key>
 		<string>\</string>
 		<key>End-of-line Ends Strings 1</key>
